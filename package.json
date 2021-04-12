@@ -4,7 +4,6 @@
   "description": "### By Cassandra Copp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
   "repository": {
@@ -19,6 +18,8 @@
   },
   "homepage": "https://github.com/cass1618/shape-tracker#readme",
   "devDependencies": {
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
     "webpack": "4.39.3",
     "webpack-cli": "^4.6.0"
   }
